@@ -18,6 +18,12 @@ If System Health reaches 0, the run ends with an **Incident Debrief** — a diag
 
 The goal is to compress the kind of hard-won operational intuition described in *The Accidental CTO* — which normally takes years of real incidents to build — into a short, replayable, visual simulation.
 
+<img src="screenshots/01_start_screen.png" alt="App Screenshot" >
+<img src="screenshots/02_game_screen.png" alt="App Screenshot" >
+<img src="screenshots/03_game_screen.png" alt="App Screenshot" >
+<img src="screenshots/04_end_screen.png" alt="App Screenshot" >
+<img src="screenshots/05_end_screen_success.png" alt="App Screenshot" >
+
 ---
 
 ## Software Requirements
