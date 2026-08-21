@@ -1,11 +1,24 @@
-clc;
+exec('logic/state.sci');
+exec('logic/traffic.sci');
+exec('logic/telemetry.sci');
+exec('logic/capacity.sci');
+exec('logic/health.sci');
+exec('logic/events.sci');
+exec('logic/actions.sci');
+exec('logic/incidents.sci');
+exec('logic/ui_refresh.sci');
+exec('logic/navigation.sci');
+exec('logic/open_url.sci');
 
-f = figure("figure_name", "System Survivor - Test", "position", [100 100 600 400]);
+// Load all screen builder + callback functions ONCE, at top level,
+// so they stay in global scope permanently
+exec('gui/screen_main_menu.sce');
+exec('gui/screen_game.sce');
+exec('gui/screen_end.sce');
 
-label = uicontrol(f, "style", "text", "string", "Health: 100", "position", [20 340 150 30], "callback", "on_damage_click()");
+global MENU_FIG GAME_FIG END_FIG
+MENU_FIG = [];
+GAME_FIG = [];
+END_FIG = [];
 
-btn = uicontrol(f, "style", "pushbutton", "string", "Damage System", "position", [20 300 150 30], "callback", "on_damage_click()");
-
-function on_damage_click()
-    disp("Button clicked!");
-endfunction
+go_to_main_menu();
