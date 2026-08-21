@@ -99,7 +99,7 @@ All widgets are looked up by `Tag` via `findobj`, and each screen's builder func
 - [Redis — Client-Side Caching](https://redis.io/docs/latest/develop/clients/client-side-caching/)
 - [Cloudflare — What Is a CDN?](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/)
 - [Scilab Help — uicontrol](https://help.scilab.org/docs/current/en_US/uicontrol.html)
-- [Scilab Help — Graphics primitives (xrect, xpoly, xstring)](https://help.scilab.org/docs/current/en_US/graphics.html)
+- [Scilab Help — Scilab for Engineers tutorials](https://www.youtube.com/playlist?list=PLqnkiGspvOOBQ3X1zMkFKdKXW_MZY2ZSA)
 - Scilab GUI Builder tool (used to scaffold the initial layout for all three screens)
 
 ---
